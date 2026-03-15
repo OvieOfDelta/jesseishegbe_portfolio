@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishegbe Jesse | Health-Tech Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ===================== HEADER ===================== -->
+    <header class="main-header">
+        <div class="logo">IJ</div>
+        <div class="nav-container">
+            <nav class="top-nav" id="mobile-nav">
+                <a href="#about">About me</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Portfolio</a>
+                <a href="#contact" class="contact-btn">CONTACT ME</a>
+            </nav>
+            <div class="nav-controls">
+                <button id="theme-toggle" class="theme-btn">🌙</button>
+                <div class="hamburger" id="hamburger-btn">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero-container">
+        <div class="hero-left">
+            <div class="hero-text">
+                <p class="intro">Hi, I am</p>
+                <h1>Ishegbe Jesse</h1>
+                <p class="role">I am a <span id="typewriter"></span><span class="cursor">|</span></p>
+                <div class="hero-socials">
+                    <a href="/cdn-cgi/l/email-protection#e1889289848683848b84929284a1868c80888dcf828e8c" class="icon-box"><span>@</span> Email</a>
+                    <a href="https://github.com/OvieOfDelta" class="icon-box" target="_blank"><span>gh</span> GitHub</a>
+                    <a href="https://linkedin.com" class="icon-box" target="_blank"><span>in</span> LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-right">
+            <div class="portrait-wrapper">
+                <img src="myphoto.jpg" alt="Ishegbe Jesse" class="portrait-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== MAIN CONTENT ===================== -->
+    <main id="projects" class="content-section">
+        <div class="section-header">
+            <h2>Selected Works</h2>
+            <div class="line"></div>
+        </div>
+
+        <div class="bento-container">
+
+            <!-- 1. ABOUT / PROFILE BOX -->
+            <div class="item profile-box" id="about">
+                <div class="header-actions">
+                    <h3>About the Scientist</h3>
+                    <div class="status-badge">Open to Lab &amp; Tech Roles</div>
+                </div>
+                <p class="about-text">
+                    I am a <strong>Medical Laboratory Science</strong> student at Lead City University, Ibadan.
+                    <!-- I bridge the gap between clinical diagnostics and digital architecture. -->
+                </p>
+                <div class="specialty-tags">
+                    <span>Bioinformatics</span>
+                    <span>Data Analysis</span>
+                    <span>Diagnostic UI</span>
+                </div>
+            </div>
+
+            <!-- 2. ACADEMIC BOX -->
+            <div class="item academic-box">
+                <div class="academic-header">
+                    <div class="uni-logo-placeholder">LCU</div>
+                    <div>
+                        <div class="uni-name">Lead City University</div>
+                        <div class="degree">B.MLS Medical Laboratory Science</div>
+                    </div>
+                </div>
+                <div class="curriculum-list">
+                    <span class="curr-tag">Hematology</span>
+                    <span class="curr-tag">Chemical Pathology</span>
+                    <span class="curr-tag">Microbiology</span>
+                    <span class="curr-tag">Histopathology</span>
+                </div>
+                <div class="verification-stamp">
+                    <div class="stamp-inner">OFFICIAL<br>STUDENT<br>VERIFIED</div>
+                </div>
+            </div>
+
+            <!-- 3. CLINICAL EXPERTISE BOX -->
+            <div class="item bio-box" id="skills">
+                <div class="bio-header">
+                    <span class="microscope-icon">🔬</span>
+                    <h3>Clinical Expertise</h3>
+                </div>
+                <div class="achievement-list">
+                    <div class="achievement-item">
+                        <strong>Diagnostic Pathology</strong>
+                        <span>Lead City University | 2022 &ndash; Present</span>
+                    </div>
+                    <div class="achievement-item">
+                        <strong>Laboratory Automation</strong>
+                        <span>Specializing in digital reporting and data-driven diagnostics.</span>
+                    </div>
+                    <div class="achievement-item">
+                        <strong>Bioinformatics Research</strong>
+                        <span>Exploring the intersection of genomic data and web architecture.</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. TECHNICAL SKILLS BOX -->
+            <div class="item skills-box">
+                <div class="bio-header">
+                    <span class="microscope-icon">⚡</span>
+                    <h3>Technical Stack</h3>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span>HTML5 / Semantic UI</span><span>90%</span></div>
+                    <div class="meter-container"><div class="meter-fill html"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span>CSS3 / Modern Flexbox</span><span>85%</span></div>
+                    <div class="meter-container"><div class="meter-fill css"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span>JavaScript / ES6+</span><span>75%</span></div>
+                    <div class="meter-container"><div class="meter-fill js"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span>Python (Pandas)</span><span>70%</span></div>
+                    <div class="meter-container"><div class="meter-fill" style="width:70%; background:#3572A5;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span>Firebase / Firestore</span><span>80%</span></div>
+                    <div class="meter-container"><div class="meter-fill" style="width:80%; background:#FFA000;"></div></div>
+                </div>
+            </div>
+
+            <!-- 5. BLOOD COMPATIBILITY TOOL -->
+            <div class="item blood-tool-box">
+                <h3>Blood Compatibility Finder</h3>
+                <p class="tool-sub">Select a recipient's blood group to see safe donors.</p>
+                <div class="tool-ui">
+                    <select id="blood-selector">
+                        <option value="">Select your Blood Type...</option>
+                        <option value="O-">O Negative (Universal Donor)</option>
+                        <option value="O+">O Positive</option>
+                        <option value="A-">A Negative</option>
+                        <option value="A+">A Positive</option>
+                        <option value="B-">B Negative</option>
+                        <option value="B+">B Positive</option>
+                        <option value="AB-">AB Negative</option>
+                        <option value="AB+">AB Positive (Universal Recipient)</option>
+                    </select>
+                    <div id="compatibility-result" class="result-display">
+                        <span class="placeholder-text">Waiting for input...</span>
+                    </div>
+                    <div class="clinical-report" id="clinical-report">
+                        <div class="report-header">Immunological Note</div>
+                        <div class="report-text" id="report-text"></div>
+                    </div>
+                </div>
+                <div class="science-note"><small>Logic: ABO &amp; Rh Antigen Interaction</small></div>
+            </div>
+
+            <!-- 6. FEATURED PROJECT — MED LAB QUIZ -->
+            <div class="item project-featured">
+
+                <!-- Screenshot preview strip -->
+                <div class="quiz-preview-strip">
+                    <div class="quiz-preview-label">📱 Live Preview</div>
+                    <div class="quiz-screens">
+                        <div class="quiz-screen-frame">
+                            <img src="screen-leaderboard.png" alt="Leaderboard" class="quiz-screen-img">
+                            <div class="screen-caption">Leaderboard</div>
+                        </div>
+                        <div class="quiz-screen-frame">
+                            <img src="screen-game.png" alt="Quiz Game" class="quiz-screen-img">
+                            <div class="screen-caption">Quiz Game</div>
+                        </div>
+                        <div class="quiz-screen-frame">
+                            <img src="screen-results.png" alt="Results" class="quiz-screen-img">
+                            <div class="screen-caption">Results</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-label">NIMELSSA &middot; Lead City University</div>
+                <div class="project-header">
+                    <span class="badge">Featured App</span>
+                    <h2>Med Lab Quiz</h2>
+                </div>
+                <p class="project-desc">A full-stack MCQ platform for Medical Laboratory Science students &mdash; Firebase auth, live leaderboard, streak tracking, challenge system, admin panel, and 4,000+ questions.</p>
+                <div class="tech-stack-mini">
+                    <span>Firebase</span>
+                    <span>JavaScript</span>
+                    <span>Firestore</span>
+                    <span>GitHub Pages</span>
+                </div>
+                <a href="https://ovieofdelta.github.io/medlablcuquiz_website/" class="btn-arrow" id="openModal">Launch Quiz &#x2794;</a>
+            </div>
+
+            <!-- 7. CERTIFICATIONS BOX -->
+            <div class="item cert-box">
+                <div class="bio-header">
+                    <span class="microscope-icon">📜</span>
+                    <h3>Certifications</h3>
+                </div>
+                <div class="cert-list">
+                    <div class="cert-item">
+                        <div class="cert-icon">🛡️</div>
+                        <div class="cert-info">
+                            <h4>HSE Management System</h4>
+                            <span>Health, Safety &amp; Environment</span>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-icon">🧪</div>
+                        <div class="cert-info">
+                            <h4>Google Data Analytics</h4>
+                            <span>Professional Certificate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 8. SOCIALS / CONNECT BOX -->
+            <div class="item socials-box">
+                <h3>Connect</h3>
+                <div class="social-links-list">
+                    <a href="https://linkedin.com" target="_blank">LinkedIn &#x2197;</a>
+                    <a href="https://github.com/OvieOfDelta" target="_blank">GitHub &#x2197;</a>
+                    <a href="/cdn-cgi/l/email-protection#91f8e2f9f4f6f3f4fbf4e2e2f4d1f6fcf0f8fdbff2fefc">Email &#x2197;</a>
+                </div>
+            </div>
+
+        </div><!-- /.bento-container -->
+    </main>
+
+    <!-- ===================== CONTACT SECTION ===================== -->
+    <section id="contact" class="contact-section">
+        <div class="item contact-form-box">
+            <div class="form-header">
+                <div>
+                    <span class="form-ref">FORM-ID: IJ-2026-MLS</span>
+                    <h3>Laboratory Test Request</h3>
+                </div>
+                <span class="microscope-icon">🧪</span>
+            </div>
+            <form class="lab-form">
+                <div class="form-group">
+                    <label class="lab-label">Patient / Client Name</label>
+                    <input type="text" class="lab-input" placeholder="e.g. John Doe" required>
+                </div>
+                <div class="form-group">
+                    <label class="lab-label">Return Result (Email)</label>
+                    <input type="email" class="lab-input" placeholder="john@example.com" required>
+                </div>
+                <div class="form-group full-width">
+                    <label class="lab-label">Inquiry Parameter (Subject)</label>
+                    <select class="lab-select">
+                        <option>General Consultation</option>
+                        <option>Health-Tech Collaboration</option>
+                        <option>Diagnostic Web Development</option>
+                        <option>Clinical Research Inquiry</option>
+                    </select>
+                </div>
+                <div class="form-group full-width">
+                    <label class="lab-label">Specimen Description (Message)</label>
+                    <textarea class="lab-textarea" placeholder="State the details of your project or inquiry..."></textarea>
+                </div>
+                <button type="submit" class="submit-request">Authorize &amp; Send Request</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ===================== PROJECT MODAL ===================== -->
+    <div class="project-overlay" id="projectOverlay">
+        <div class="project-modal">
+            <span class="modal-close" id="closeModal">&times;</span>
+            <div class="modal-image-container">
+                <div style="width:100%;height:280px;background:linear-gradient(135deg,#0f0c29,#1a1a2e,#16213e);display:flex;align-items:center;justify-content:center;">
+                    <div style="text-align:center;color:#e2b96f;">
+                        <div style="font-size:4rem;margin-bottom:12px;">🧪</div>
+                        <div style="font-size:1.4rem;font-weight:900;letter-spacing:2px;font-family:'Montserrat',sans-serif;">MED LAB QUIZ</div>
+                        <div style="font-size:0.8rem;opacity:0.6;margin-top:8px;letter-spacing:1px;">NIMELSSA &middot; LEAD CITY UNIVERSITY</div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-content">
+                <h2>Med Lab Quiz &mdash; NIMELSSA LCU</h2>
+                <p style="margin:15px 0;color:var(--text-muted);font-size:0.95rem;line-height:1.7;">
+                    A comprehensive MCQ platform for Medical Laboratory Science students at Lead City University.
+                    Features Firebase authentication, live leaderboard with tier rankings, daily streak system,
+                    challenge-a-friend battles, admin panel, and over 4,000 questions across Chemical Pathology,
+                    Hematology, Microbiology, Histopathology and Laboratory Management.
+                </p>
+                <div class="specialty-tags">
+                    <span>Firebase Auth</span>
+                    <span>Firestore</span>
+                    <span>JavaScript ES6+</span>
+                    <span>GitHub Pages</span>
+                    <span>Python Tools</span>
+                </div>
+                <a href="https://ovieofdelta.github.io/medlablcuquiz_website"  target="_blank"  rel="noopener noreferrer"  class="visit-project-btn"> OPEN LIVE QUIZ &#x2794;</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer>
+        <div class="footer-content">
+            <div class="digital-signature">
+                AUTHORIZED BY: <span class="signature-line">ISHEGBE JESSE, B.MLS (In View)</span>
+            </div>
+            <div class="approval-stamp">Validated &amp; Approved</div>
+            <div class="copyright">&copy; 2026 Health-Tech Laboratory. All digital rights reserved.</div>
+    
